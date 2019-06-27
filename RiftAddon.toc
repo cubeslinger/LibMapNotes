@@ -1,0 +1,15 @@
+Identifier  =  "LibMapNotes"
+Name        =  { English = "LibMapNotes" }
+NameShort   =  "LibMapNotes"
+Version     =  "0.1"
+Description =  { English = "LibMapNotes" }
+Author      =  "marcob@marcob.org"
+Website     =  "https://github.com/cubeslinger/LibMapNotes"
+Email       =  "marcob@marcob.org"
+Environment =  "4.0"
+
+RunOnStartup = {
+  "db/puzzles.lua",
+  "db/cairns.lua",
+  "LibMapNotes.lua",
+}
